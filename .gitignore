@@ -15,6 +15,7 @@ env/
 *.pt
 *.pth
 *.faiss
+!dataset/*.jsonl
 *.jsonl
 *.zip
 *.gz
