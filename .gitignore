@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Models & Data (Large files)
+*.bin
+*.pt
+*.pth
+*.faiss
+*.jsonl
+*.zip
+*.gz
+model5/
+crimebert-nli-checkpoints/
+modernbert-nli-conv/
+
+# Temporary scripts
+clean_notebook.py
+clean_notebook_v2.py
+clean_test_model2.py
+summarize_nb.py
+super_clean_nb.py
+update_paths.py
+aggressive_replace.py
